@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script>
+/* ============================================
+   NAWAJE PERFUMES - EDIT YOUR DETAILS HERE
+   ============================================ */
+const INSTAGRAM_HANDLE = "nawaje_perfume";
+const WHATSAPP_NUMBER  = "2348035375525";     // main number: calls + WhatsApp (country code, no +)
+const WHATSAPP_OLD     = "2347062359015";     // second WhatsApp line
+/* ============================================ */
+</script>
+<script>
+/* Auto-apply editable settings */
+document.addEventListener('DOMContentLoaded',function(){
+  var ig=document.getElementById('igLink');
+  if(ig){ig.href='https://instagram.com/'+INSTAGRAM_HANDLE;}
+});
+</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>NAWAJE PERFUMES | Premium Perfumes & Fragrances in Nigeria</title>
+<meta name="description" content="Shop premium perfumes and fragrances from NAWAJE PERFUMES. Discover Surrati, Al Mass, Al-Miftah and other quality fragrances. Order easily through WhatsApp.">
+<meta property="og:title" content="NAWAJE PERFUMES | Luxury in Every Drop."><meta property="og:type" content="website"><meta property="og:description" content="Premium original perfumes and fragrances in Nigeria. Order on WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Store","name":"NAWAJE PERFUMES","telephone":"+2348035375525","description":"Dealers in original perfumes: Surrati, Al Mass, Al-Miftah and more.","areaServed":"NG"}</script>
+<style>
+:root{--bg:#F6F0E4;--bg2:#EDE4D3;--ink:#221C14;--mut:#7A6E5C;--gold:#B8955A;--gold2:#D8C08F;--dark:#1B1610;--card:#FBF7EE;--line:rgba(34,28,20,.12);--sh:0 18px 40px -22px rgba(60,40,10,.35);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#F6F0E4;--ink:#221C14}}
+:root[data-theme="dark"]{--bg:#F6F0E4;--ink:#221C14}
+html{scroll-behavior:smooth;scroll-padding-top:calc(76px + env(safe-area-inset-top,0px))}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--ink);font:300 16px/1.7 Jost,system-ui,sans-serif;overflow-x:hidden}
+h1,h2,h3,.serif{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;line-height:1.1}
+h2{font-size:clamp(2rem,5vw,3.3rem);letter-spacing:.01em}
+a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer;color:inherit;background:none;border:0}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1240px;margin:0 auto;padding:0 22px}
+section{padding:clamp(64px,9vw,120px) 0}
+.head{text-align:center;max-width:620px;margin:0 auto 52px}.head p{color:var(--mut);margin-top:14px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:15px 30px;min-height:48px;font-size:.78rem;letter-spacing:.2em;text-transform:uppercase;font-weight:400;border:1px solid var(--ink);transition:.35s;position:relative}
+.btn.fill{background:var(--ink);color:var(--bg)}.btn.fill:hover{background:var(--gold);border-color:var(--gold)}
+.btn:not(.fill):hover{background:var(--ink);color:var(--bg)}
+.btn.wa{background:#1f6b4a;border-color:#1f6b4a;color:#fff}.btn.wa:hover{background:#17573b}
+.btn.sm{padding:11px 14px;font-size:.68rem;letter-spacing:.14em;min-height:44px}
+/* nav */
+nav{position:sticky;top:0;z-index:50;background:rgba(246,240,228,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+.nv{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{font-family:'Cormorant Garamond',serif;font-size:1.45rem;letter-spacing:.22em;font-weight:600}
+.links{display:flex;gap:34px;font-size:.78rem;letter-spacing:.18em;text-transform:uppercase}
+.links a{position:relative;padding:6px 0}.links a:after{content:"";position:absolute;left:0;bottom:0;height:1px;width:0;background:var(--gold);transition:.35s}.links a:hover:after{width:100%}
+.ic{display:flex;align-items:center;gap:6px}
+.ib{width:44px;height:44px;display:grid;place-items:center;position:relative}
+.ib svg,.ico{width:22px;height:22px;stroke:currentColor;fill:none;stroke-width:1.2}
+.badge{position:absolute;top:4px;right:2px;background:var(--gold);color:#fff;font-size:.62rem;min-width:17px;height:17px;border-radius:9px;display:grid;place-items:center}
+.burger{display:none}
+@media(max-width:900px){.links{position:fixed;inset:72px 0 auto 0;background:var(--bg);flex-direction:column;gap:0;padding:10px 22px 26px;border-bottom:1px solid var(--line);transform:translateY(-130%);transition:.45s;z-index:-1}.links.open{transform:none}.links a{padding:16px 0;border-bottom:1px solid var(--line);font-size:.9rem}.burger{display:grid}.navwa{display:none}}
+#searchbar{display:none;border-top:1px solid var(--line)}#searchbar.open{display:block}
+#searchbar input{width:100%;padding:18px 0;background:none;border:0;font:inherit;font-size:1.05rem;outline:0}
+/* hero */
+.hero{min-height:calc(100svh - 72px);background:radial-gradient(ellipse at 72% 40%,#3a2d1d 0%,#1B1610 62%);color:#F6F0E4;display:flex;align-items:center;position:relative;overflow:hidden;padding:60px 0 90px}
+.hero .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:30px;align-items:center;width:100%}
+.hero h1{font-size:clamp(2.8rem,8vw,6rem);letter-spacing:.01em;animation:rise 1.4s cubic-bezier(.2,.7,.2,1) both}
+.hero p{max-width:470px;margin:26px 0 38px;color:#d8ccb5;animation:rise 1.4s .25s cubic-bezier(.2,.7,.2,1) both}
+.hero .cta{display:flex;gap:14px;flex-wrap:wrap;animation:rise 1.4s .45s both}
+.hero .btn{border-color:var(--gold2);color:#F6F0E4}.hero .btn.fill{background:var(--gold);border-color:var(--gold);color:#1B1610}.hero .btn.fill:hover{background:var(--gold2)}.hero .btn:not(.fill):hover{background:#F6F0E4;color:#1B1610}
+.stage{position:relative;aspect-ratio:1/1.05;max-width:560px;margin-left:auto;width:100%}
+.stage svg{width:100%;height:100%;overflow:visible}
+.stage .glow{position:absolute;inset:8% 10%;background:radial-gradient(circle,rgba(216,192,143,.35),transparent 65%);filter:blur(30px)}
+.fl{animation:flo 7s ease-in-out infinite}.fl2{animation-delay:-2.5s}.fl3{animation-delay:-4.5s}
+@keyframes flo{50%{transform:translateY(-10px)}}@keyframes rise{from{opacity:0;transform:translateY(28px)}}
+.scroll{position:absolute;bottom:26px;left:50%;width:1px;height:54px;background:rgba(216,192,143,.3);overflow:hidden}.scroll:after{content:"";position:absolute;top:-30%;left:0;width:1px;height:50%;background:var(--gold2);animation:sc 2.2s infinite}
+@keyframes sc{to{top:110%}}
+@media(max-width:820px){.hero .wrap{grid-template-columns:1fr;text-align:center}.hero p{margin-inline:auto}.hero .cta{justify-content:center}.stage{margin:0 auto;max-width:360px;order:-1}.hero{padding-top:30px}}
+/* cards */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:26px}
+.pc{background:var(--card);border:1px solid var(--line);transition:.45s;display:flex;flex-direction:column;position:relative}
+.pc:hover{transform:translateY(-6px);box-shadow:var(--sh)}
+.pimg{aspect-ratio:1/1.1;background:linear-gradient(160deg,#EFE5D0,#E3D5B8);overflow:hidden;position:relative;cursor:pointer}
+.pimg img,.gal .main img,.ci .th img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block;transition:transform 1s cubic-bezier(.2,.7,.2,1)}.pc:hover .pimg img{transform:scale(1.05)}.pimg svg{width:100%;height:100%;transition:transform 1s cubic-bezier(.2,.7,.2,1)}.pc:hover .pimg svg{transform:scale(1.07)}
+.qv{position:absolute;left:12px;right:12px;bottom:12px;background:rgba(251,247,238,.85);backdrop-filter:blur(8px);padding:10px;text-align:center;font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;transform:translateY(130%);transition:.4s}.pc:hover .qv{transform:none}
+@media(hover:none){.qv{display:none}}
+.wl{position:absolute;top:8px;right:8px;width:44px;height:44px;display:grid;place-items:center;z-index:2}.wl svg{width:20px;height:20px;stroke:var(--ink);fill:none;stroke-width:1.3}.wl.on svg{fill:var(--gold);stroke:var(--gold)}
+.pb{padding:18px 18px 20px;display:flex;flex-direction:column;gap:4px;flex:1}
+.brand{font-size:.7rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold)}
+.pb h3{font-size:1.4rem}.meta{color:var(--mut);font-size:.85rem;display:flex;justify-content:space-between}
+.stars{color:var(--gold);letter-spacing:2px;font-size:.85rem}.price{font-family:'Cormorant Garamond',serif;font-size:1.35rem;font-weight:600}
+.acts{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:auto;padding-top:14px}.acts .wa{grid-column:1/-1}
+/* filters */
+.bar{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-bottom:30px;align-items:center}
+.chip{padding:10px 18px;border:1px solid var(--line);font-size:.78rem;letter-spacing:.1em;transition:.3s;min-height:44px}.chip:hover{border-color:var(--gold)}.chip.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+select{padding:11px 14px;background:var(--card);border:1px solid var(--line);font:inherit;font-size:.85rem;min-height:44px}
+/* categories */
+.cats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.cat{aspect-ratio:4/5;position:relative;overflow:hidden;display:flex;align-items:flex-end;padding:24px;color:#F6F0E4;text-align:left;cursor:pointer}
+.cat svg{position:absolute;inset:0;width:100%;height:100%;transition:transform 1.1s cubic-bezier(.2,.7,.2,1)}.cat:hover svg{transform:scale(1.08)}
+.cat:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent 45%,rgba(20,14,8,.78))}
+.cat span{position:relative;z-index:1;font-family:'Cormorant Garamond',serif;font-size:1.6rem;line-height:1.15}.cat small{display:block;font:300 .8rem Jost;opacity:.8;margin-top:4px}
+@media(max-width:700px){.cats{grid-template-columns:repeat(2,1fr);gap:12px}.cat{padding:14px}.cat span{font-size:1.2rem}}
+/* why */
+.dark{background:var(--dark);color:#F6F0E4}.dark .head p{color:#bdb19a}
+.why{display:grid;grid-template-columns:repeat(4,1fr);gap:40px}
+.why div{text-align:center;padding:10px}.why .ico{width:44px;height:44px;stroke:var(--gold2);margin-bottom:18px;stroke-width:.9}
+.why h3{font-size:1.35rem;margin-bottom:8px;letter-spacing:.06em}.why p{color:#bdb19a;font-size:.92rem}
+@media(max-width:850px){.why{grid-template-columns:1fr 1fr;gap:30px}}
+/* brands */
+.brands{display:flex;justify-content:center;flex-wrap:wrap;gap:20px 64px;font-family:'Cormorant Garamond',serif;font-size:clamp(1.6rem,4vw,2.6rem);letter-spacing:.3em;color:var(--mut)}
+.brands span{transition:.4s;cursor:default}.brands span:hover{color:var(--ink)}
+/* discovery */
+.disc{background:var(--bg2)}
+.scents{display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin-bottom:44px}
+.scents .chip{font-family:'Cormorant Garamond',serif;font-size:1.25rem;padding:12px 28px;background:var(--card)}
+/* about */
+.about{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.ab-img{aspect-ratio:2/3;overflow:hidden;position:relative;background:#2a2118}.ab-img svg{position:absolute;left:0;top:-8%;width:100%;height:116%;will-change:transform}
+.about p{color:var(--mut);margin:22px 0 30px;max-width:480px}
+@media(max-width:820px){.about{grid-template-columns:1fr;gap:36px}}
+/* reviews */
+.rv{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.rv blockquote{background:var(--card);border:1px solid var(--line);padding:34px 28px}
+.rv q{font-family:'Cormorant Garamond',serif;font-size:1.45rem;line-height:1.35;display:block;margin:12px 0 20px;quotes:none}
+.rv cite{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--mut);font-style:normal}
+.note{text-align:center;color:var(--mut);font-size:.78rem;margin-top:22px}
+@media(max-width:850px){.rv{grid-template-columns:1fr}}
+/* contact */
+.ct{display:grid;grid-template-columns:1fr 1fr;gap:60px}
+.ct a.l{display:block;font-family:'Cormorant Garamond',serif;font-size:1.9rem;margin:6px 0 20px}
+form{display:grid;gap:14px}input,textarea{width:100%;padding:15px 16px;background:var(--card);border:1px solid var(--line);font:inherit;font-size:1rem;border-radius:0}
+input:focus,textarea:focus{outline:0;border-color:var(--gold)}
+@media(max-width:820px){.ct{grid-template-columns:1fr;gap:34px}}
+/* footer */
+footer{background:var(--dark);color:#cfc3ac;padding:80px 0 110px}
+.fg{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px}
+footer h4{font-family:'Cormorant Garamond',serif;font-weight:500;color:#F6F0E4;font-size:1.2rem;margin-bottom:14px}
+footer a{display:block;padding:5px 0;font-size:.92rem}footer a:hover{color:var(--gold2)}
+.cp{border-top:1px solid rgba(255,255,255,.1);margin-top:50px;padding-top:24px;font-size:.82rem}
+@media(max-width:800px){.fg{grid-template-columns:1fr 1fr}.fg>:first-child{grid-column:1/-1}}
+/* floating + drawer + modal */
+.fwa{position:fixed;right:18px;bottom:calc(18px + env(safe-area-inset-bottom,0px));width:58px;height:58px;border-radius:50%;background:#1f6b4a;color:#fff;display:grid;place-items:center;box-shadow:0 10px 26px -6px rgba(0,0,0,.5);z-index:40;transition:.3s}.fwa:hover{transform:scale(1.07)}.fwa svg{width:28px;height:28px;fill:#fff}
+.ov{position:fixed;inset:0;background:rgba(20,14,8,.5);opacity:0;pointer-events:none;transition:.4s;z-index:60}.ov.open{opacity:1;pointer-events:auto}
+.drawer{position:fixed;top:0;right:0;bottom:0;width:min(440px,100%);background:var(--bg);z-index:70;transform:translateX(105%);transition:.5s cubic-bezier(.2,.7,.2,1);display:flex;flex-direction:column;padding-top:env(safe-area-inset-top,0px)}.drawer.open{transform:none}
+.dh{display:flex;justify-content:space-between;align-items:center;padding:20px 24px;border-bottom:1px solid var(--line)}.dh h3{font-size:1.7rem}
+.db{flex:1;overflow:auto;padding:12px 24px}.df{padding:20px 24px calc(20px + env(safe-area-inset-bottom,0px));border-top:1px solid var(--line);display:grid;gap:10px}
+.ci{display:grid;grid-template-columns:70px 1fr auto;gap:14px;padding:16px 0;border-bottom:1px solid var(--line);align-items:center}.ci .th{width:70px;height:78px;background:#E8DCC2}.ci .th svg{width:100%;height:100%}
+.qty{display:inline-flex;border:1px solid var(--line);align-items:center}.qty button{width:40px;height:40px;font-size:1.1rem}.qty span{min-width:26px;text-align:center}
+.tot{display:flex;justify-content:space-between;font-family:'Cormorant Garamond',serif;font-size:1.5rem}
+.pg{position:fixed;inset:0;z-index:65;background:var(--bg);overflow:auto;transform:translateY(100%);opacity:0;transition:.55s cubic-bezier(.2,.7,.2,1);padding-bottom:90px}.pg.open{transform:none;opacity:1}
+.pgin{display:grid;grid-template-columns:1.1fr 1fr;gap:56px;padding:40px 0}
+.gal{display:grid;gap:10px}.gal .main{aspect-ratio:1/1.1;background:linear-gradient(160deg,#EFE5D0,#E3D5B8)}.gal .main svg{width:100%;height:100%}.thumbs{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.thumbs button{aspect-ratio:1;background:#E8DCC2;border:1px solid transparent}.thumbs button.on{border-color:var(--gold)}.thumbs svg{width:100%;height:100%}
+.nt{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:22px 0}.nt div{border:1px solid var(--line);padding:14px;font-size:.88rem}.nt b{display:block;font:500 .66rem Jost;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:4px}
+.pgbar{position:sticky;top:0;background:rgba(246,240,228,.9);backdrop-filter:blur(10px);display:flex;justify-content:space-between;align-items:center;padding:8px 22px;padding-top:calc(8px + env(safe-area-inset-top,0px));z-index:2;border-bottom:1px solid var(--line)}
+.sticky{display:none}
+@media(max-width:820px){.pgin{grid-template-columns:1fr;gap:26px;padding:20px 0}.sticky{display:grid;grid-template-columns:1fr 1fr;gap:8px;position:fixed;left:0;right:0;bottom:0;padding:10px 14px calc(10px + env(safe-area-inset-bottom,0px));background:rgba(246,240,228,.95);backdrop-filter:blur(10px);border-top:1px solid var(--line);z-index:3}.fwa.hide{display:none}}
+.toast{position:fixed;left:50%;bottom:calc(90px + env(safe-area-inset-bottom,0px));transform:translate(-50%,30px);background:var(--ink);color:var(--bg);padding:12px 22px;font-size:.85rem;opacity:0;transition:.4s;z-index:90;pointer-events:none}.toast.show{opacity:1;transform:translate(-50%,0)}
+.rev{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding:14px 0;font-size:.92rem;color:var(--mut)}
+.empty{text-align:center;color:var(--mut);padding:40px 0;grid-column:1/-1}
+.fade{opacity:0;transform:translateY(22px);transition:opacity 1s,transform 1s cubic-bezier(.2,.7,.2,1)}.fade.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.fade{opacity:1;transform:none}html{scroll-behavior:auto}}
+
+.stage .collage{position:relative;width:100%;height:100%}
+.cc{position:absolute;margin:0;border:1px solid var(--gold2);padding:6px;background:#120d08;box-shadow:0 30px 60px -20px rgba(0,0,0,.7),0 0 0 1px rgba(216,192,143,.15)}
+.cc img{display:block;width:100%;height:100%;object-fit:cover;object-position:center top}
+.cc.c1{left:0;top:12%;width:44%;aspect-ratio:2/3;z-index:2}
+.cc.c2{left:30%;top:0;width:46%;aspect-ratio:2/3;z-index:3}
+.cc.c3{right:0;top:22%;width:44%;aspect-ratio:2/3;z-index:1}
+.cat img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center top;transition:transform 1.1s cubic-bezier(.2,.7,.2,1)}.cat:hover img{transform:scale(1.08)}
+.ab-img img{position:absolute;left:0;top:-8%;width:100%;height:116%;object-fit:cover;object-position:center top;will-change:transform}
+.ab-img:after{content:"";position:absolute;inset:12px;border:1px solid var(--gold2);pointer-events:none}
+.stage .glow{animation:pulse 6s ease-in-out infinite}@keyframes pulse{50%{opacity:.6}}
+.pc{transition:transform .5s,box-shadow .5s}.pc:hover{transform:translateY(-6px);box-shadow:var(--sh)}
+</style></head><body>
+<nav><div class="wrap"><div class="nv">
+<button class="ib burger" id="bg" aria-label="Menu"><svg viewBox="0 0 24 24"><path d="M3 8h18M3 16h18"/></svg></button>
+<a href="#home" class="logo">NAWAJE PERFUMES</a>
+<div class="links" id="lk"><a href="#home">Home</a><a href="#shop">Shop</a><a href="#collections">Collections</a><a href="#about">About Us</a><a href="#contact">Contact</a></div>
+<div class="ic"><button class="ib" id="sb" aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 5 5"/></svg></button>
+<button class="ib" id="cb" aria-label="Cart"><svg viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6zM9 8V6a3 3 0 0 1 6 0v2"/></svg><span class="badge" id="cn">0</span></button>
+<a class="btn wa sm navwa" data-wa="Hello Nawaje Perfumes, I would like to place an order.">WhatsApp</a></div></div>
+<div id="searchbar"><input id="q" placeholder="Search perfumes, brands, notes…" aria-label="Search products"></div></div></nav>
+
+<header class="hero" id="home"><div class="wrap"><div>
+<h1>LUXURY IN EVERY DROP.</h1>
+<p>Discover premium fragrances carefully selected for those who appreciate elegance, confidence, and unforgettable presence.</p>
+<div class="cta"><a href="#shop" class="btn fill">Shop Collection</a><a class="btn" data-wa="Hello Nawaje Perfumes, I would like to place an order.">Order on WhatsApp</a></div></div>
+<div class="stage"><div class="glow"></div><div class="collage"><figure class="cc c1 fl"><img src="manjol.jpg" alt="Surrati Manjol"></figure><figure class="cc c2 fl fl2"><img src="pink_chiffon.jpg" alt="Al Mass Pink Chiffon"></figure><figure class="cc c3 fl fl3"><img src="mufaddal.jpg" alt="Naseem Mufaddal"></figure></div></div></div><div class="scroll"></div></header>
+
+<section id="shop"><div class="wrap">
+<div class="head fade"><h2>The Signature Collection</h2><p>Discover fragrances made to leave a lasting impression.</p></div>
+<div class="bar fade" id="catbar"></div>
+<div class="bar fade"><select id="pf" aria-label="Filter by price"><option value="0">All prices</option><option value="1">Under ₦7,000</option><option value="2">₦7,000 – ₦15,000</option><option value="3">Above ₦15,000</option></select><select id="so" aria-label="Sort"><option value="0">Featured</option><option value="1">Price: low to high</option><option value="2">Price: high to low</option></select></div>
+<div class="grid" id="pg1"></div>
+<p class="note">Message us on WhatsApp to confirm current price and availability.</p></div></section>
+
+<section id="collections" style="padding-top:0"><div class="wrap"><div class="head fade"><h2>Shop by Collection</h2></div><div class="cats fade" id="cats"></div></div></section>
+
+<section class="dark"><div class="wrap"><div class="head fade"><h2>Why Choose NAWAJE PERFUMES?</h2></div><div class="why fade">
+<div><svg class="ico" viewBox="0 0 24 24"><path d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"/><path d="m9 12 2 2 4-4"/></svg><h3>Authentic Products</h3><p>Carefully selected fragrances from trusted brands.</p></div>
+<div><svg class="ico" viewBox="0 0 24 24"><path d="m12 3 2.6 5.6 6 .8-4.4 4.2 1.1 6-5.3-2.9-5.3 2.9 1.1-6L3.4 9.4l6-.8z"/></svg><h3>Premium Quality</h3><p>We focus on quality, performance, and customer satisfaction.</p></div>
+<div><svg class="ico" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/><path d="M8 10h8"/></svg><h3>Fast Response</h3><p>Contact us directly through WhatsApp for quick assistance.</p></div>
+<div><svg class="ico" viewBox="0 0 24 24"><path d="M3 8h13v9H3zM16 11h3l2 3v3h-5"/><circle cx="7" cy="18" r="1.6"/><circle cx="17" cy="18" r="1.6"/></svg><h3>Trusted Service</h3><p>Professional service from product selection to delivery.</p></div></div></div></section>
+
+<section><div class="wrap"><div class="head fade"><h2>Houses We Carry</h2></div><div class="brands fade"><span>SURRATI</span><span>NASEEM</span><span>ALMAS</span><span>AL-MIFTAH</span><span>& MORE</span></div></div></section>
+
+<section style="background:var(--bg2)"><div class="wrap"><div class="head fade"><h2>Customers' Favorites</h2><p>The fragrances our clients return for.</p></div><div class="grid" id="fav"></div></div></section>
+
+<section class="disc"><div class="wrap"><div class="head fade"><h2>What kind of scent are you looking for?</h2></div><div class="scents" id="scents"></div><div class="grid" id="dres"></div></div></section>
+
+<section id="about"><div class="wrap about"><div class="ab-img fade"><img id="par" src="CEO.jpg" alt="Thank you for your patronage from Nawaje Perfumes" loading="lazy"></div>
+<div class="fade"><h2>More than a fragrance.<br>It's your signature.</h2><p>NAWAJE PERFUMES is dedicated to bringing customers premium fragrances that match their personality, style, and presence. From everyday scents to special occasions, our collection is carefully selected to help you find a fragrance you will love.</p><a href="#contact" class="btn fill">Talk to us</a></div></div></section>
+
+<section style="background:var(--bg2)"><div class="wrap"><div class="head fade"><h2>Customer Reviews</h2></div><div class="rv fade">
+<blockquote><span class="stars">★★★★★</span><q>Excellent fragrance and very professional service.</q><cite>Sample customer</cite></blockquote>
+<blockquote><span class="stars">★★★★★</span><q>Beautiful perfumes and fast response on WhatsApp.</q><cite>Sample customer</cite></blockquote>
+<blockquote><span class="stars">★★★★★</span><q>NAWAJE PERFUMES has become my trusted place for fragrances.</q><cite>Sample customer</cite></blockquote></div>
+<p class="note">Sample testimonials — to be replaced with real customer reviews.</p></div></section>
+
+<section id="contact"><div class="wrap"><div class="head fade"><h2>Let's find your signature scent.</h2></div><div class="ct fade"><div>
+<p class="brand">Call us</p><a class="l" href="tel:+2348035375525">+234 803 537 5525</a><p class="brand">WhatsApp</p><a class="l" data-wa="Hello Nawaje Perfumes, I need help choosing a fragrance.">+234 803 537 5525</a><a class="l" data-wa2="Hello Nawaje Perfumes, I need help choosing a fragrance.">+234 706 235 9015</a></div>
+<form id="cf"><input name="n" placeholder="Name" required aria-label="Name"><input name="p" type="tel" placeholder="Phone number" required aria-label="Phone number"><textarea name="m" rows="4" placeholder="Message" required aria-label="Message"></textarea><button class="btn fill" type="submit">Send Message</button></form></div></div></section>
+
+<footer><div class="wrap"><div class="fg"><div><div class="logo" style="color:#F6F0E4">NAWAJE PERFUMES</div><p class="serif" style="font-size:1.4rem;margin-top:10px;font-style:italic">Luxury in Every Drop.</p></div>
+<div><h4>Quick Links</h4><a href="#home">Home</a><a href="#shop">Shop</a><a href="#collections">Collections</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+<div><h4>Customer Support</h4><a data-wa="Hello Nawaje Perfumes, I need assistance.">WhatsApp</a><a href="tel:+2348035375525">Call +234 803 537 5525</a><a data-wa2="Hello Nawaje Perfumes, I need assistance.">WhatsApp (2nd line)</a></div>
+<div><h4>Social</h4><a id="igLink" href="#" target="_blank" rel="noopener">Instagram</a><a href="#" onclick="return soon()">Facebook</a><a href="#" onclick="return soon()">TikTok</a></div></div>
+<div class="cp">© 2026 NAWAJE PERFUMES. All rights reserved.</div></div></footer>
+
+<a class="fwa" id="fwa" data-wa="Hello Nawaje Perfumes, I would like to place an order." aria-label="Order on WhatsApp"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.1-1.3A10 10 0 1 0 12 2zm5.2 14c-.2.6-1.2 1.2-1.7 1.2-.4.1-1 .1-1.6-.1-3-1.2-5-4.300-5.200-4.500-.1-.2-1.200-1.600-1.200-3s.8-2.100 1-2.400c.3-.3.600-.3.800-.3h.6c.2 0 .4 0 .6.500l.8 2c.1.200.1.400 0 .5l-.4.600c-.1.200-.3.300-.1.600.9 1.500 2 2.200 3.200 2.800.3.100.5.100.600-.1l.9-1c.2-.2.400-.2.600-.1l1.900.9c.3.100.4.200.4.400 0 .3 0 .9-.2 1.400z"/></svg></a>
+
+<div class="ov" id="ov"></div>
+<aside class="drawer" id="dr" aria-label="Shopping bag"><div class="dh"><h3>Your Bag</h3><button class="ib" id="cx" aria-label="Close bag">✕</button></div><div class="db" id="items"></div><div class="df" id="cf2"></div></aside>
+<div class="pg" id="pp"><div class="pgbar"><button class="btn sm" id="pback">← Back</button><span class="logo" style="font-size:1.1rem">NAWAJE PERFUMES</span><button class="ib" id="pcart" aria-label="Open bag"><svg viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6zM9 8V6a3 3 0 0 1 6 0v2"/></svg></button></div><div class="wrap" id="pbody"></div></div>
+<div class="toast" id="ts"></div>
+
+<script>
+const N=WHATSAPP_NUMBER,$=s=>document.querySelector(s),fmt=n=>'₦'+n.toLocaleString('en-NG');
+const wa=(t,n=N)=>'https://wa.me/'+n+'?text='+encodeURIComponent(t);
+const P=[
+{id:"manjol",n:"Manjol",b:"Surrati",s:"100ml",p:24500,c:"Unisex",f:["Oud", "Woody"],h:30,r:0,t:'',he:'',ba:'',img:"manjol.jpg",d:"Manjol \u2014 concentrated perfume oil by Surrati. Message us on WhatsApp for availability.",fav:1},
+{id:"chanse",n:"Chanse",b:"Surrati",s:"100ml",p:19500,c:"Unisex",f:["Oud", "Woody"],h:45,r:0,t:'',he:'',ba:'',img:"chanse.jpg",d:"Chanse \u2014 concentrated perfume oil by Surrati. Message us on WhatsApp for availability.",fav:1},
+{id:"iresh-leather",n:"Iresh Leather",b:"Surrati",s:"100ml",p:18000,c:"Men's",f:["Woody", "Oriental"],h:60,r:0,t:'',he:'',ba:'',img:"iresh_leather.jpg",d:"Iresh Leather \u2014 concentrated perfume oil by Surrati. Message us on WhatsApp for availability.",fav:1},
+{id:"dere-tmerhes",n:"Dere T'Merhes",b:"Surrati",s:"100ml",p:17500,c:"Unisex",f:["Oud", "Oriental"],h:75,r:0,t:'',he:'',ba:'',img:"dere_tmerhes.jpg",d:"Dere T'Merhes \u2014 concentrated perfume oil by Surrati. Message us on WhatsApp for availability.",fav:1},
+{id:"amani",n:"Amani",b:"Naseem",s:"100ml",p:6000,c:"Women's",f:["Floral", "Sweet"],h:90,r:0,t:'',he:'',ba:'',img:"amani.jpg",d:"Amani \u2014 concentrated perfume oil by Naseem. Message us on WhatsApp for availability.",fav:1},
+{id:"mufaddal",n:"Mufaddal",b:"Naseem",s:"100ml",p:6000,c:"Men's",f:["Oriental", "Woody"],h:105,r:0,t:'',he:'',ba:'',img:"mufaddal.jpg",d:"Mufaddal \u2014 concentrated perfume oil by Naseem. Message us on WhatsApp for availability.",fav:1},
+{id:"soft",n:"Soft",b:"Naseem",s:"100ml",p:6000,c:"Unisex",f:["Musk", "Floral"],h:120,r:0,t:'',he:'',ba:'',img:"soft.jpg",d:"Soft \u2014 concentrated perfume oil by Naseem. Message us on WhatsApp for availability.",fav:1},
+{id:"blue-horizon",n:"Blue Horizon",b:"Naseem",s:"Perfume oil",p:6000,c:"Men's",f:["Fresh", "Citrus"],h:135,r:0,t:'',he:'',ba:'',img:"blue_horizon.jpg",d:"Blue Horizon \u2014 concentrated perfume oil by Naseem. Message us on WhatsApp for availability."},
+{id:"be-sugar",n:"Be Sugar",b:"Naseem",s:"Perfume oil",p:6000,c:"Women's",f:["Sweet"],h:150,r:0,t:'',he:'',ba:'',img:"be_sugar.jpg",d:"Be Sugar \u2014 concentrated perfume oil by Naseem. Message us on WhatsApp for availability."},
+{id:"dubai-gold",n:"Dubai Gold",b:"Almas",s:"Perfume oil",p:6500,c:"Unisex",f:["Oriental", "Sweet"],h:165,r:0,t:'',he:'',ba:'',img:"dubai_gold.jpg",d:"Dubai Gold \u2014 concentrated perfume oil by Almas. Message us on WhatsApp for availability."},
+{id:"lamsa",n:"Lamsa",b:"Naseem",s:"100ml",p:6000,c:"Women's",f:["Floral", "Sweet"],h:180,r:0,t:'',he:'',ba:'',img:"lamsa.jpg",d:"Lamsa \u2014 concentrated perfume oil by Naseem. Message us on WhatsApp for availability.",fav:1},
+{id:"cool-weather",n:"Cool Weather",b:"Al-Miftah",s:"Perfume oil",p:7000,c:"Men's",f:["Fresh", "Citrus"],h:195,r:0,t:'',he:'',ba:'',img:"cool_weather.jpg",d:"Cool Weather \u2014 concentrated perfume oil by Al-Miftah. Message us on WhatsApp for availability."},
+{id:"chocolate-musk",n:"Chocolate Musk",b:"Al-Miftah",s:"Perfume oil",p:7000,c:"Unisex",f:["Musk", "Sweet"],h:210,r:0,t:'',he:'',ba:'',img:"chocolate_musk.jpg",d:"Chocolate Musk \u2014 concentrated perfume oil by Al-Miftah. Message us on WhatsApp for availability."},
+{id:"musk-tahara",n:"Musk Tahara",b:"Al-Miftah",s:"Perfume oil",p:7000,c:"Unisex",f:["Musk"],h:225,r:0,t:'',he:'',ba:'',img:"musk_tahara.jpg",d:"Musk Tahara \u2014 concentrated perfume oil by Al-Miftah. Message us on WhatsApp for availability."},
+{id:"pink-chiffon",n:"Pink Chiffon",b:"Al Mass",s:"100ml",p:7000,c:"Women's",f:["Floral", "Sweet"],h:240,r:0,t:'',he:'',ba:'',img:"pink_chiffon.jpg",d:"Pink Chiffon \u2014 concentrated perfume oil by Al Mass. Message us on WhatsApp for availability."},
+{id:"turkey-oud",n:"Turkey Oud",b:"Naseem",s:"Perfume oil",p:7000,c:"Unisex",f:["Oud", "Woody"],h:255,r:0,t:'',he:'',ba:'',img:"turkey_oud.jpg",d:"Turkey Oud \u2014 concentrated perfume oil by Naseem. Message us on WhatsApp for availability."},
+{id:"pares",n:"Pares",b:"Al-Miftah",s:"Perfume oil",p:7000,c:"Unisex",f:["Oriental"],h:270,r:0,t:'',he:'',ba:'',img:"pares.jpg",d:"Pares \u2014 concentrated perfume oil by Al-Miftah. Message us on WhatsApp for availability."},
+{id:"wild-fawakeh",n:"Wild Fawakeh",b:"Almas",s:"Eau de parfum",p:7000,c:"Unisex",f:["Sweet", "Citrus"],h:285,r:0,t:'',he:'',ba:'',img:"wild_fawakeh.jpg",d:"Wild Fawakeh \u2014 concentrated perfume oil by Almas. Message us on WhatsApp for availability."},
+{id:"terry-dmehres",n:"Terry D'Mehres",b:"Al-Miftah",s:"Eau de parfum",p:7000,c:"Men's",f:["Woody", "Fresh"],h:300,r:0,t:'',he:'',ba:'',img:"terry_dmehres.jpg",d:"Terry D'Mehres \u2014 concentrated perfume oil by Al-Miftah. Message us on WhatsApp for availability."},
+{id:"buncarat-rouge-540",n:"Buncarat Rouge 540",b:"Naseem",s:"Perfume oil",p:7000,c:"Unisex",f:["Oriental", "Sweet"],h:315,r:0,t:'',he:'',ba:'',img:"buncarat_rouge_540.jpg",d:"Buncarat Rouge 540 \u2014 concentrated perfume oil by Naseem. Message us on WhatsApp for availability."},
+{id:"bushra",n:"Bushra",b:"Naseem",s:"100ml",p:6000,c:"Unisex",f:["Sweet", "Floral"],h:330,r:0,t:'',he:'',ba:'',img:"bushra.jpg",d:"Bushra \u2014 concentrated perfume oil by Naseem. Message us on WhatsApp for availability.",fav:1}];
+const SC=['Fresh','Woody','Oud','Sweet','Floral','Musk','Citrus','Oriental'];
+const CATS=["Men's","Women's",'Unisex'];
+const CT={"Men's":"Men's Fragrances","Women's":"Women's Fragrances",'Unisex':'Unisex'};
+const pic=(p,k,id)=>p.img?`<img src="${p.img}" alt="${p.n} by ${p.b}" loading="lazy">`:bot(p.h,k,id);
+// bottle art
+function bot(h,k=0,id='x'){const a=`hsl(${h} 45% 38%)`,b=`hsl(${h} 55% 62%)`,u=id+k,sh=['M120 150h160v170q0 30-30 30H150q-30 0-30-30z','M130 140h140q20 0 20 22v150q0 38-34 38H144q-34 0-34-38V162q0-22 20-22z','M200 130c60 0 90 50 90 120s-40 100-90 100-90-30-90-100 30-120 90-120z'][k%3];
+return `<svg viewBox="0 0 400 440" aria-hidden="true"><defs><linearGradient id="g${u}" x1="0" x2="1"><stop offset="0" stop-color="${b}" stop-opacity=".95"/><stop offset=".55" stop-color="${a}"/><stop offset="1" stop-color="${a}" stop-opacity=".85"/></linearGradient></defs><ellipse cx="200" cy="378" rx="120" ry="14" fill="#2a2118" opacity=".16"/><path d="${sh}" fill="url(#g${u})" stroke="#fff6" stroke-width="1"/><path d="M148 190v110" stroke="#fff" stroke-opacity=".4" stroke-width="7" stroke-linecap="round"/><rect x="${k%3==2?170:160}" y="${k%3==2?78:100}" width="${k%3==2?60:80}" height="${k%3==2?56:52}" rx="4" fill="#B8955A"/><rect x="${k%3==2?178:170}" y="${k%3==2?60:84}" width="${k%3==2?44:60}" height="22" fill="#d8c08f"/><rect x="${k%3==2?170:160}" y="250" width="${k%3==2?60:80}" height="62" fill="#F6F0E4" opacity=".88"/><text x="200" y="278" text-anchor="middle" font-family="Cormorant Garamond,serif" font-size="12" letter-spacing="3" fill="#221C14">NAWAJE</text><text x="200" y="298" text-anchor="middle" font-family="Jost,sans-serif" font-size="7" letter-spacing="2" fill="#7A6E5C">PERFUMES</text></svg>`}
+// state
+let cart=JSON.parse('[]'),wl=new Set(),flt={c:'All',q:'',pr:0,so:0};
+const stars=r=>'★'.repeat(Math.round(r))+'☆'.repeat(5-Math.round(r));
+const idx=p=>P.indexOf(p);
+function card(p){const i=idx(p);return `<article class="pc"><button class="wl ${wl.has(p.id)?'on':''}" data-wl="${p.id}" aria-label="Add ${p.n} to wishlist"><svg viewBox="0 0 24 24"><path d="M12 20s-7-4.500-8.500-9A4.500 4.500 0 0 1 12 7a4.500 4.500 0 0 1 8.500 4C19 15.500 12 20 12 20z"/></svg></button>
+<div class="pimg" data-open="${p.id}">${pic(p,i,'c')}<span class="qv">Quick view</span></div><div class="pb"><span class="brand">${p.b}</span><h3>${p.n}</h3><div class="meta"><span>${p.s}</span></div><div class="price">${fmt(p.p)}</div>
+<div class="acts"><button class="btn sm" data-open="${p.id}">View</button><button class="btn sm fill" data-add="${p.id}">Add to cart</button><a class="btn sm wa" href="${wa(`Hello Nawaje Perfumes, I would like to order ${p.n}. Please send me the price and availability.`)}" target="_blank" rel="noopener">Order on WhatsApp</a></div></div></article>`}
+function shop(){let l=P.filter(p=>(flt.c=='All'||p.c==flt.c)&&(!flt.q||(p.n+p.b+p.t+p.he+p.ba+p.f.join()).toLowerCase().includes(flt.q))&&(flt.pr==0||(flt.pr==1&&p.p<7000)||(flt.pr==2&&p.p>=7000&&p.p<=15000)||(flt.pr==3&&p.p>15000)));
+if(flt.so==1)l.sort((a,b)=>a.p-b.p);if(flt.so==2)l.sort((a,b)=>b.p-a.p);$('#pg1').innerHTML=l.map(card).join('')||'<p class="empty">No fragrances match. Try clearing a filter or message us on WhatsApp.</p>';
+$('#catbar').innerHTML=['All',...CATS].map(c=>`<button class="chip ${flt.c==c?'on':''}" data-cat="${c}">${c=='All'?'All':CT[c]}</button>`).join('')}
+function fav(){$('#fav').innerHTML=P.filter(p=>p.fav).slice(0,8).map(card).join('')}
+const CI={"Men's":'terry_dmehres.jpg',"Women's":'pink_chiffon.jpg','Unisex':'manjol.jpg'};
+$('#cats').innerHTML=CATS.map(c=>`<div class="cat" role="button" tabindex="0" data-gocat="${c}"><img src="${CI[c]}" alt="${CT[c]}" loading="lazy"><span>${CT[c]}<small>Explore</small></span></div>`).join('');
+$('#scents').innerHTML=SC.map(s=>`<button class="chip" data-sc="${s}">${s}</button>`).join('');
+function disc(s){document.querySelectorAll('[data-sc]').forEach(b=>b.classList.toggle('on',b.dataset.sc==s));$('#dres').innerHTML=P.filter(p=>p.f.includes(s)).slice(0,4).map(card).join('')||'<p class="empty">Ask us on WhatsApp — we will recommend a '+s.toLowerCase()+' scent.</p>'}
+disc('Oud');
+// cart
+function toast(t){const e=$('#ts');e.textContent=t;e.classList.add('show');clearTimeout(e.t);e.t=setTimeout(()=>e.classList.remove('show'),2200)}
+function add(id,q=1){const x=cart.find(i=>i.id==id);x?x.q+=q:cart.push({id,q});drawCart();toast('Added to your bag')}
+function drawCart(){const T=cart.reduce((s,i)=>s+i.q*P.find(p=>p.id==i.id).p,0);$('#cn').textContent=cart.reduce((s,i)=>s+i.q,0);
+$('#items').innerHTML=cart.map(i=>{const p=P.find(x=>x.id==i.id);return `<div class="ci"><div class="th">${bot(p.h,idx(p),'t')}</div><div><b class="serif" style="font-size:1.15rem">${p.n}</b><div class="meta" style="justify-content:flex-start;gap:8px">${p.s} · ${fmt(p.p)}</div><div class="qty"><button data-q="${i.id}:-1" aria-label="Decrease">−</button><span>${i.q}</span><button data-q="${i.id}:1" aria-label="Increase">+</button></div></div><button class="ib" data-rm="${i.id}" aria-label="Remove">✕</button></div>`}).join('')||'<p class="empty">Your bag is empty. Browse the collection to begin.</p>';
+const msg=`Hello Nawaje Perfumes, I would like to order:\n`+cart.map(i=>{const p=P.find(x=>x.id==i.id);return `• ${i.q} × ${p.n} (${p.s})`}).join('\n')+`\nEstimated total: ${fmt(T)}\nPlease confirm price, availability and delivery.`;
+$('#cf2').innerHTML=cart.length?`<div class="tot"><span>Estimated total</span><span>${fmt(T)}</span></div><a class="btn wa" href="${wa(msg)}" target="_blank" rel="noopener">Checkout on WhatsApp</a><p class="note" style="margin:0">Payment and delivery are confirmed with us directly on WhatsApp.</p>`:''}
+const dr=(o)=>{$('#dr').classList.toggle('open',o);$('#ov').classList.toggle('open',o)};
+// product page
+function open(id){const p=P.find(x=>x.id==id),i=idx(p),rel=P.filter(x=>x!=p&&(x.c==p.c||x.b==p.b||x.f.some(f=>p.f.includes(f)))).slice(0,4);
+$('#pbody').innerHTML=`<div class="pgin"><div class="gal"><div class="main" id="gm">${pic(p,i,'m')}</div><div class="thumbs"></div></div>
+<div><span class="brand">${p.b}</span><h1 style="font-size:clamp(2.2rem,5vw,3.4rem);margin:6px 0 10px">${p.n}</h1>
+<div class="price" style="font-size:2rem;margin:14px 0">${fmt(p.p)} <small style="font:300 .9rem Jost;color:var(--mut)">· ${p.s}</small></div><p style="color:var(--mut)">${p.d}</p>
+<p style="margin-top:14px"><b>Fragrance family:</b> ${p.f.join(' · ')}<br><b>Availability:</b> In stock — confirm on WhatsApp</p>
+
+<div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center"><div class="qty"><button id="qm" aria-label="Decrease">−</button><span id="qv">1</span><button id="qp" aria-label="Increase">+</button></div><button class="btn fill" id="padd">Add to cart</button><a class="btn wa" id="pwa" target="_blank" rel="noopener">Order on WhatsApp</a></div>
+</div></div>
+<h2 style="font-size:2.2rem;margin:20px 0 26px">Related fragrances</h2><div class="grid">${rel.map(card).join('')}</div>
+<div class="sticky"><button class="btn sm fill" id="padd2">Add to cart</button><a class="btn sm wa" id="pwa2" target="_blank" rel="noopener">WhatsApp</a></div>`;
+let q=1;const upd=()=>{$('#qv').textContent=q;const u=wa(`Hello Nawaje Perfumes, I would like to order ${q} × ${p.n}. Please send me the price and availability.`);$('#pwa').href=u;$('#pwa2').href=u};upd();
+$('#qm').onclick=()=>{q=Math.max(1,q-1);upd()};$('#qp').onclick=()=>{q++;upd()};$('#padd').onclick=$('#padd2').onclick=()=>add(id,q);
+$('#pp').classList.add('open');$('#pp').scrollTop=0;$('#fwa').classList.add('hide');history.replaceState(null,'','#/product/'+id);document.title=p.n+' | NAWAJE PERFUMES';
+const ld=document.createElement('script');ld.type='application/ld+json';ld.id='pld';ld.textContent=JSON.stringify({'@context':'https://schema.org','@type':'Product',name:p.n,brand:{'@type':'Brand',name:p.b},description:p.d,offers:{'@type':'Offer',priceCurrency:'NGN',price:p.p,availability:'https://schema.org/InStock'}});document.getElementById('pld')?.remove();document.head.append(ld)}
+function close(){$('#pp').classList.remove('open');$('#fwa').classList.remove('hide');history.replaceState(null,'','#shop');document.title='NAWAJE PERFUMES | Premium Perfumes & Fragrances in Nigeria'}
+// events
+document.addEventListener('click',e=>{const t=e.target.closest('[data-open],[data-add],[data-wl],[data-cat],[data-gocat],[data-sc],[data-q],[data-rm],[data-wa],[data-wa2],[data-th]');if(!t)return;const d=t.dataset;
+if(d.wa2){e.preventDefault();window.open(wa(d.wa2,WHATSAPP_OLD),'_blank','noopener')}
+else if(d.wa){e.preventDefault();window.open(wa(d.wa),'_blank','noopener')}
+else if(d.open)open(d.open);else if(d.add)add(d.add);
+else if(d.wl){const on=wl.has(d.wl);on?wl.delete(d.wl):wl.add(d.wl);toast(on?'Removed from wishlist':'Saved to wishlist');document.querySelectorAll(`[data-wl="${d.wl}"]`).forEach(b=>b.classList.toggle('on',!on))}
+else if(d.cat){flt.c=d.cat;shop()}
+else if(d.gocat){flt.c=d.gocat;shop();$('#shop').scrollIntoView()}
+else if(d.sc)disc(d.sc);
+else if(d.q){const[a,b]=d.q.split(':'),x=cart.find(i=>i.id==a);x.q+=+b;if(x.q<1)cart=cart.filter(i=>i!=x);drawCart()}
+else if(d.rm){cart=cart.filter(i=>i.id!=d.rm);drawCart()}
+else if(d.th){document.querySelectorAll('.thumbs button').forEach(b=>b.classList.toggle('on',b==t));const p=P.find(x=>$('#pbody h1').textContent==x.n);$('#gm').innerHTML=pic(p,idx(p)+ +d.th,'gm')}});
+document.addEventListener('keydown',e=>{if(e.key=='Escape'){dr(false);if($('#pp').classList.contains('open'))close()}if((e.key=='Enter')&&e.target.dataset.gocat)e.target.click()});
+$('#cb').onclick=$('#pcart').onclick=()=>dr(true);$('#cx').onclick=$('#ov').onclick=()=>dr(false);$('#pback').onclick=close;
+$('#bg').onclick=()=>$('#lk').classList.toggle('open');$('#lk').onclick=()=>$('#lk').classList.remove('open');
+$('#sb').onclick=()=>{$('#searchbar').classList.toggle('open');$('#q').focus()};
+$('#q').oninput=e=>{flt.q=e.target.value.toLowerCase().trim();shop();if(flt.q)$('#shop').scrollIntoView()};
+$('#pf').onchange=e=>{flt.pr=+e.target.value;shop()};$('#so').onchange=e=>{flt.so=+e.target.value;shop()};
+$('#cf').onsubmit=e=>{e.preventDefault();const f=new FormData(e.target);window.open(wa(`Hello Nawaje Perfumes, my name is ${f.get('n')} (${f.get('p')}). ${f.get('m')}`),'_blank','noopener');e.target.reset();toast('Opening WhatsApp to send your message')};
+function soon(){toast('Social links coming soon');return false}
+// reveal + parallax
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.12});
+document.querySelectorAll('.fade').forEach(e=>io.observe(e));
+const par=$('#par');addEventListener('scroll',()=>{const r=par.parentElement.getBoundingClientRect();if(r.top<innerHeight&&r.bottom>0)par.style.transform=`translateY(${(r.top-innerHeight/2)*-.06}px)`},{passive:true});
+shop();fav();drawCart();
+const m=location.hash.match(/#\/product\/(.+)/);if(m&&P.find(p=>p.id==m[1]))open(m[1]);
+</script></body></html>
